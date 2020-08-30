@@ -1,0 +1,223 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>MY PORTFOLIO</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <link rel="stylesheet" type="text/css" media="screen" href="/styles.css" /> -->
+  <style type="text/css">
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+/*@media and (max-width): 768px){}*/
+body{
+  font-family: 'Roboto Mono';
+ background-color:#CCE8B7;
+  height:100%;
+  width:100%;
+  margin: 0;
+  padding: 0;
+}
+  .flex-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+  }
+  .container{
+display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 50px;
+  }
+  
+  #welcome-section{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-color:#EED390 ;
+    border-style:groove;
+
+         background-repeat: no-repeat;
+         /*add my image*/
+  }
+  .welcome-section{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  h1{
+    padding: 30px;
+    font-size:2.5rem ;
+    font-weight: 400;
+    text-align: center;
+    color: maroon;
+  }
+  a:link{
+    text-decoration: none;
+  }
+  a:visited{
+    text-decoration: none;
+  }
+  img{
+    max-width: 100%;
+    height: auto;
+  }
+#nav-bar a {
+         text-decoration: none;
+         color: blue;
+         
+}
+* {
+ box-sizing: border-box ; 
+}
+.image-container{
+  margin: 0 auto;
+  width:80%;
+  margin-bottom: 20px;
+  transition-property: 1s;
+}
+.image-container:hover{
+  width: 90%;
+  
+}
+.project-tile{
+  padding: 0 15px 15px 15px;
+  text-align: center;
+}
+div {
+  border-radius: 20px;
+}
+.nav-bar a {
+  text-decoration: none;
+  color: black;
+  float:right;
+  
+}
+.footer-copyright{
+  width:100%;
+  height:40px;
+  padding: 10px;
+  position: absolute;
+  bottom: 0px;
+  left:0px;
+
+}
+footer{
+  height: 100px;
+}
+
+
+
+   </style>
+    
+
+    
+</head>
+<body>
+    <header id="top" >
+       
+       <div class="container"style=" position:fixed;top:0px;left:0px; width:100%; float: left;background-color:#808000;">
+         <div style="justify-content:space-around"></div>
+           
+    
+            
+              <nav id="navbar" class="nav-bar" style="position:fixed; width:100%;"  >
+                <span> <a href="#welcome-section"><button type="button">ABOUT</button></a> </span>
+              
+                <span>
+                     <a href="#projects"><button type="button">WORK</button></a></span>
+                     
+                <span><a href="#contact"><button type="button">CONTACT</button></a></span>
+                
+                <span><a href="#profile-link"><button type="button">PROFILE</button></a></span>
+                 
+              </nav>
+           
+              
+                
+             
+                    
+               
+               
+         </div>
+       
+       
+           
+       </div>
+
+
+    </header>
+    <hr/>
+    <div id="welcome-section" class="welcome-section">
+            <h1>HELLO WELCOME,I AM WAMANI WILLCOMFORT </h1>
+            <h4>An upcoming web developer</h4>
+            
+        </div>
+        <div id="projects">
+        <div class="image-container"><img src="/home/ahindura/Desktop/Portfolio project/images (6).jpeg" alt="Oops! profile image didnt load" />
+            <p class="project-tile">BUILDING PROFILES <a href="https://wamani-will.github.io/PREP-VII/">click</a>to view my work </p>
+            </div>
+            <div class="image-container">
+              <img src="/home/ahindura/Desktop/Portfolio project/images (4).jpeg" alt="Oops!project image didnt load" />
+<p class="project-tile">BUILDING WEBSITES</p>
+            </div>
+            <div class="image-container">
+              <img src="/home/ahindura/Desktop/Portfolio project/images (5).jpeg" alt="Oops!project image didnt load" />
+<p class="project-tile">MANAGING WEBSITES</p>
+        
+            </div>
+            <div class="image-container">
+                <img src="/home/ahindura/Desktop/Portfolio project/images (1).jpeg" alt="Oops!project image didnt load" />
+  <p class="project-tile">MAKING REGISTRATION FORMS</p>
+          
+              </div>
+            
+    </div>
+          
+        </div>
+    
+    <div id="contact" style="background-color:#F5FFBA">
+        <p style="text-align:center;font-weight:400;color:maroon;font-size:2.5rem;">LET'S WORK TOGETHER</p>
+        <div id="profile-link">
+          
+        
+         <a href="https://github.com/wamani-will" target="_blank"><img src="/home/ahindura/Desktop/Portfolio project/IMG_20200829_211312_742.jpg"
+                     alt="Oops! Github image didnt load" /></a>
+                     </div>
+                     <div>
+                       
+                     
+        <a href="https://twitter.com/WamaniWill?s=09‬
+" target="_blank"><img src="/home/ahindura/Desktop/Portfolio project/IMG_20200829_211332_681.jpg" alt="Oops! twitter image didnt load" /></a></div>
+<div>
+  
+
+         <a href="https://m.facebook.com/wamani.willcomfort" target="_blank"><img src="/home/ahindura/Desktop/Portfolio project/IMG_20200830_121117_494.jpg" alt="Oops! Facebook image didnt load" /></a></div>
+         <div>
+           
+         
+        Contact <a href="+256 750 827914">Contact</a></div>
+    </div>
+    <hr style="color:maroon"/>
+    <footer>
+      <div class="footer" style="background-color:#C9D96F">
+        
+      
+      <button type="button"><a href="#top">back to the top</a></button>
+     
+      </div>
+      <div class="footer-copyright">
+        Copyright ©
+      </div>
+    </footer>
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
